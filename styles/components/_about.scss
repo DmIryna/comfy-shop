@@ -1,0 +1,32 @@
+@use "./colors" as *;
+
+.about {
+  color: $text-dark-blue;
+
+  div {
+    margin: 2rem 2rem;
+
+    @media screen and (min-width: 680px) {
+      margin: 3rem;
+    }
+
+    h3 {
+      padding: 2rem;
+      font-size: 1.8rem;
+      text-align: center;
+
+      @media screen and (min-width: 680px) {
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      font-size: 1.4rem;
+      line-height: 1.5;
+
+      @media screen and (min-width: 680px) {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

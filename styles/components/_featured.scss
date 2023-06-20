@@ -1,0 +1,110 @@
+@use "./colors" as *;
+
+.featured {
+  margin: 4rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+
+    @media screen and (min-width: 980px) {
+      font-size: 2.4rem;
+    }
+  }
+
+  button {
+    background-color: $bg-orange;
+    padding: 0.5rem 1rem;
+    color: $white;
+    text-transform: uppercase;
+    border: 1px solid $bg-gray;
+    border-radius: 3px;
+    transition: color 1s, background-color 1s;
+
+    @media screen and (min-width: 980px) {
+      padding: 1rem 2rem;
+    }
+
+    &:hover {
+      background-color: $white;
+      color: $bg-orange;
+      border: 1px solid $bg-orange;
+      cursor: pointer;
+    }
+  }
+
+  .cards {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+
+    @media screen and (min-width: 860px) {
+      flex-direction: row;
+      gap: 3.6rem;
+    }
+
+    .card {
+      margin-bottom: 2.4rem;
+
+      .img-container {
+        position: relative;
+        overflow: hidden;
+
+        &:hover .btn-bag {
+          transform: translateX(0);
+        }
+
+        &:hover img {
+          opacity: 0.5;
+        }
+
+        img {
+          width: 25rem;
+          height: 30rem;
+          margin-bottom: 1rem;
+          transition: opacity 1s;
+
+          @media screen and (min-width: 860px) {
+            width: 20rem;
+          }
+
+          @media screen and (min-width: 980px) {
+            width: 25rem;
+          }
+        }
+
+        .btn-bag {
+          font-size: 1rem;
+          position: absolute;
+          right: 0;
+          top: 70%;
+          transform: translateX(101%);
+          transition: transform 1s;
+          letter-spacing: 0.4rem;
+          cursor: pointer;
+        }
+      }
+
+      p {
+        font-size: 1.4rem;
+        padding: 0.8rem;
+        text-align: center;
+
+        @media screen and (min-width: 980px) {
+          font-size: 1.8rem;
+        }
+
+        &:last-child {
+          font-weight: 600;
+        }
+
+        span {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

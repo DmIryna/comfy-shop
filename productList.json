@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "name": "Hich-back bench",
+    "price": "39.99",
+    "company": "Ikea",
+    "img": "/images/high_back_bench.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Table",
+    "price": "59.99",
+    "company": "Jysk",
+    "img": "/images/table.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Accent Chair",
+    "price": "35.99",
+    "company": "Marcos",
+    "img": "/images/accent_chair.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Wooden Table",
+    "price": "65.99",
+    "company": "Carresa",
+    "img": "/images/wooden_table.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Dining Table",
+    "price": "25.99",
+    "company": "Ikea",
+    "img": "/images/dining_table.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Sofa Set",
+    "price": "79.99",
+    "company": "Liddly",
+    "img": "/images/sofa_set.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Modern bookshelf",
+    "price": "29.99",
+    "company": "Ikea",
+    "img": "/images/bookshelf.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Emperor bed",
+    "price": "49.99",
+    "company": "Carresa",
+    "img": "/images/bed.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Sofa",
+    "price": "35.99",
+    "company": "Ikea",
+    "img": "/images/sofa.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Dresser",
+    "price": "19.99",
+    "company": "Jysk",
+    "img": "/images/dresser.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Albany sectional",
+    "price": "55.99",
+    "company": "Marcos",
+    "img": "/images/dining_table.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Leather Sofa",
+    "price": "69.99",
+    "company": "Liddly",
+    "img": "/images/leather_sofa.jpg"
+  }
+]
